@@ -63,7 +63,7 @@ Create a Resource Group
 
     -   **Location:** West US
 
-`azure group create –n “CLITestGroup” –l “West US”`
+        azure group create –n “CLITestGroup” –l “West US”
 
 1.  Use the following command to show the details of your resource group:
 
@@ -86,7 +86,6 @@ Create a Virtual Network
 
     -   **Location:** West US
     
-
         azure network vnet create –g "CLITestGroup" –n “TestVNET” -l "West US"
 
 1.  View your new virtual network in the list of virtual networks using this command:
