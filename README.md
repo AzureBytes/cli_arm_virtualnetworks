@@ -58,8 +58,11 @@ Create a Resource Group
 
 1.  Use the following command to create a new resource group with the
     following details:
+
     -   **Name:** CLITestGroup
+
     -   **Location:** West US
+
 `azure group create –n “CLITestGroup” –l “West US”`
 
 1.  Use the following command to show the details of your resource group:
