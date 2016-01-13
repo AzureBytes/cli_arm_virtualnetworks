@@ -56,12 +56,7 @@ Create a Resource Group
 
         azure group
 
-1.  Use the following command to create a new resource group with the
-    following details:
-
-    -   **Name:** CLITestGroup
-
-    -   **Location:** West US
+1.  Use the following command to create a new resource group:
 
         azure group create –n “CLITestGroup” –l “West US”
 
@@ -80,11 +75,7 @@ Create a Virtual Network
 
         azure network vnet
 
-1.  Use the following command to create a new resource group with the following details:
-
-    -   **Name:** CLITestGroup
-
-    -   **Location:** West US
+1.  Use the following command to create a new virtual network:
     
         azure network vnet create –g "CLITestGroup" –n “TestVNET” -l "West US"
 
