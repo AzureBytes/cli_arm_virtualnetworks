@@ -116,13 +116,27 @@ Validate Solution
 Validate Resources in The Portal
 ----------------
 
-1. Navigate to [](http://portal.azure.com) and login using your Enterprise credentials or Microsoft Account as your identity.
+1. Navigate to [](http://portal.azure.com) with a web browser and login using either your Enterprise credentials or Microsoft Account as your identity.
 
-![alt text](images/azurecliarmvnets_1.png)
+![Portal Startboard](images/azurecliarmvnets_6.png)
 
 1. In the portal, click the **Resource Groups** button on the left navigation menu to view a list of your Resource Groups.
 
-1. Test
+![Resource Groups](images/azurecliarmvnets_2.png)
+
+1. Select the **CLITestGroup** Resource Group.
+
+![Resource Group](images/azurecliarmvnets_3.png)
+
+1. Within your Resource Group, select your **TestVNET** virtual network instance.  Observe that you have one connected device (Network Interface Card).
+
+![Resource Groups](images/azurecliarmvnets_4.png)
+
+1. In the **Settings** blade, select **Subnets** and select your only subnet, **TestSubnet** to view it's details.
+
+![Resource Groups](images/azurecliarmvnets_5.png)
+
+1. Close your web browser.
 
 Clean Up Your Environment
 ----------------
